@@ -1,0 +1,63 @@
+{
+  "name": "typescript-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.ts",
+  "scripts": {
+    "test": "",
+    "lint": "tslint --project .",
+    "webpack": "webpack",
+    "prod": "npm run webpack -- --env.mode production --env.side client",
+    "dev": "npm run webpack -- --env.mode development --env.side client",
+    "hot": "webpack-dev-server --open --hot --env.side client --env.mode development",
+    "clean": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "@reach/router": "^1.2.0",
+    "@types/html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@types/reach__router": "^1.0.1",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "autoprefixer": "^9.1.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "const": "^1.0.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.0",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-md5-hash": "0.0.6",
+    "webpack-merge": "^4.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tearingItUp786/typescript-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tearingItUp786/typescript-react/issues"
+  },
+  "homepage": "https://github.com/tearingItUp786/typescript-react#readme"
+}

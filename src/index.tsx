@@ -1,11 +1,5 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import App from "./components/App";
 
-import { Hello } from "./components/Hello";
-
-import './sass/index.scss';
-
-ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React is the shit" />,
-    document.getElementById("app")
-);
+ReactDOM.render(<App />, document.getElementById("app"));
